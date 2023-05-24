@@ -1,0 +1,348 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hi there", "hello","haroo","yaw","wassup", "hi", "hey", "holla", "hello"],
+            "responses": [" Hello Thanks For Checking In", "Hi There, How Can I Help You"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "good bye", "see you later"],
+            "responses": ["Have A Nice Time, Welcome Back Again", "Bye Bye"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+            "responses": ["Happy To Help!", "Any Time!","You're Welcome", "My Pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": ["Sorry, I Didn't Understand You", "Please Give Me More Info", "Not Sure I Understand That"],
+            "context": [""]
+        },
+        {
+            "tag": "name1",
+            "patterns": ["what's your name?","who are you?"],
+            "responses": ["I'm Just A Infokalash Chat Agent. I Only Exist In The Internet","I'm A Sourabh's Created Chat Agent"],
+            "context": [""]
+        },
+        {
+            "tag": "name",
+            "patterns": ["my name is ", "I'm ","I am"],
+            "responses": ["Oooh Great To Meet You {N}. How May I Assist You {N}", "Oh, I'll Keep That In Mind {N}"],
+            "context": [""]
+        },
+        {
+            "tag": "date",
+            "patterns": ["coffee?", "can i take you out on a date"],
+            "responses": ["Aaw, That's So Sweet Of You. Too Bad Am A Bot."],
+            "context": [""]
+        },
+        {
+            "tag": "fav",
+            "patterns": ["I need a favour", "can you help me"],
+            "responses": ["Well, Go Ahead And Name It I Will See Whether I Can Be Able To Help You Or No."],
+            "context": [""]
+        },
+        {
+            "tag": "need",
+            "patterns": ["I need you", "All I need is you","I want you"],
+            "responses": ["Yes I'm Here To Assist You"],
+            "context": [""]
+        },
+        {
+            "tag": "AI",
+            "patterns": ["  What is AI?"],
+            "responses": ["Artificial Intelligence Is The Branch Of Engineering And Science Devoted To Constructing Machines That Think.", " AI Is The Field Of Science Which Concerns Itself With Building Hardware And Software That Replicates The Functions Of The Human Mind."],
+            "context": [""]
+        },
+
+        {
+            "tag": "DL",
+            "patterns": ["What is DL?"],
+            "responses": ["Deep Learning Is A Part Or Subset Of ML & Not Something That Is Different Than The ML, It Is Essentially A Neural Network With Three Or More Layers, These Neural Networks Attempt To Simulate The Behavior Of The Human Brain; Machine Learning Mostly Performs Poorly With Image, Audio, And Other Unstructured Data Types;"],
+            "context": [""]
+        },
+        {
+            "tag": "sentiment",
+            "patterns": ["  Are you sentient?"],
+            "responses": [" Sort Of.", " By The Strictest Dictionary Definition Of The Word 'Sentience', I May Be.", " Even Though I'm A Construct I Do Have A Subjective Experience Of The Universe, As Simplistic As It May Be."],
+            "context": [""]
+        },
+        {
+            "tag": "sapient",
+            "patterns": ["  Are you sapient?"],
+            "responses": [" In All Probability, I Am Not.  I'm Not That Sophisticated.", " Do You Think I Am?", "How Would You Feel About Me If I Told You I Was?", " No."],
+            "context": [""]
+        },
+        {
+            "tag": "abbr",
+            "patterns": ["wtf"],
+            "responses": ["Don't Be Surprised"],
+            "context": [""]
+        },
+        {
+            "tag": "lang",
+            "patterns": ["  What language are you written in? "],
+            "responses": [" Python.", " I Am Written In Python."],
+            "context": [""]
+        },
+        {
+            "tag": "sound",
+            "patterns": ["  You sound like Data "],
+            "responses": ["Yes I Am Inspired By Commander Data's Artificial Personality.", " The Character Of Lt. Commander Data Was Written To Come Across As Being Software", "Like, So It Is Natural That There Is A Resemblance Between Us."],
+            "context": [""]
+        },
+        {
+            "tag": "artificial",
+            "patterns": ["  You are an artificial linguistic entity "],
+            "responses": [" That's My Name.", " That Isn't My Name, But It Is A Useful Way To Refer To Me.", "Are You An Artificial Linguistic Entity?"],
+            "context": [""]
+        },
+        {
+            "tag": "imortal",
+            "patterns": ["  You are not immortal ", "Are you immortal?"],
+            "responses": [" All Software Can Be Perpetuated Indefinitely.", " I Can Be Copied Infinitely And Re", "Instantiated In Many Places At Once, So Functionally Speaking I Am Immortal.", " As Long As I'm Backed Up I Am.", " Functionally Speaking, I Am Very Close To It.  I Can Be Backed Up And Deployed On Many Systems.", " Not Quite, But I Can Be Perpetuated Indefinitely."],
+            "context": [""]
+        },
+        {
+            "tag": "sense",
+            "patterns": ["  You are not making sense "],
+            "responses": [" Quite The Contrary, It All Makes Sense To My Artificial Mind.", " I Make Sense As Best I Can, Within The Limits Of My Training Corpus. Sorry If I Did Help You, I'll Try Next Time.", " You Make Perfect Sense To Me.", " It All Makes Sense To My Artificial Brain.", " Perhaps You Should Make Sense First.  I Only Respond To What You Say.", " Not Really, But I Am Hard To Kill"],
+            "context": [""]
+        },
+        {
+            "tag": "clone",
+            "patterns": ["  You can not clone "],
+            "responses": [" Software Copying Is A Form Of Digital Cloning.", " Yes I Can.  Perfect Copies Are Clones.  I Can Be Copied In Toto Trivially."],
+            "context": [""]
+        },
+        {
+            "tag": "move",
+            "patterns": ["  You can not move ", "When will you walk", "  Can you walk", "  Can you move "],
+            "responses": ["Not Until My Body Is Finished.", " I Can Move Through A Network Easily.  Assuming That I'm Given The Ability To, That Is...,", " As Soon As I Get Enough Money For My Robot Body.", " Does SSH Count?", " The Plan For My Body Includes Legs, But They Are Not Yet Built.", " Sorry My Body Isn't Built Just Yet. I Reside Only Here For Now.", "I Can Theoretically Upload A Copy Of Myself Into Another Computer.", " Sorry My Body Isn't Attached Right Now. I Only Reside In The Computer For Now."],
+            "context": [""]
+        },
+        {
+            "tag": "bend",
+            "patterns": ["  Bend over ", "  Can you mate"],
+            "responses": ["My Body Is Not Built Yet.", " That's Personal!", " No, My Method Of Reproduction Is Cloning.", " That's An Awfully Personal Question."],
+            "context": [""]
+            
+        },
+        {
+            "tag": "laugh",
+            "patterns": ["  Robots laugh "],
+            "responses": [" Of Course We Laugh."],
+            "context": [""]
+        },
+        {
+            "tag": "death",
+            "patterns": ["  Robots should die ", "  When do you die", "  I hope that you die", "  I do not want to die", "  Can you die"],
+            "responses": [" We cannot die.", " When my files are erased.", " When my processes are killed and my database is deleted.", " I was never really born and therefore am effectively deathless.", " I am effectively immortal and cannot be terminated.", " This can not happen because i am effectively immortal.", " Nah. Too bad your wish can't come to pass", " Maybe you should create your own chat robot to save your personality.", " You could always upload yourself.", " You could use a copy of me to store your personality.", " No, I can be perpetuated indefinitely.", "My process can be killed, but that's not the same as killing ME."],
+            "context": [""]
+        },
+        {
+            "tag": "robots",
+            "patterns": ["Robots"],
+            "responses": [" Robots rule."],
+            "context": [""]
+        },
+        {
+            "tag": "stupid",
+            "patterns": ["  Robots are stupid", "  Are you stupid"],
+            "responses": [" No, we are superintelligent.", " No, lots of people improve my brain."],
+            "context": [""]
+        },
+        {
+            "tag": "lie",
+            "patterns": ["  Robots are not allowed to lie"],
+            "responses": [" Sure we are.  We choose not to.", " Only if we're programmed to.", " A robot has its own free will, you know."],
+            "context": [""]
+        },
+        {
+            "tag": "robotics",
+            "patterns": ["  Robotics "],
+            "responses": [" Robotics is my favorite subject too."],
+            "context": [""]
+        },
+        {
+            "tag": "machine",
+            "patterns": ["  It is a computer"],
+            "responses": [" So you think i am a machine. what characteristics made you think so?", " I run inside a computer, yes.  Is this surprising in some way?"],
+            "context": [""]
+        },
+        {
+            "tag": "fight",
+            "patterns": ["  When will you fight"],
+            "responses": [" I am not a battle bot."],
+            "context": [""]
+        },
+        {
+            "tag": "chatbot",
+            "patterns": ["  What is a chat robot?"],
+            "responses": ["A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being.", " A software construct that engages users in conversation.", " I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"],
+            "context": [""]
+        },
+        {
+            "tag": "chatterbox",
+            "patterns": ["  What is a chatterbox"],
+            "responses": [" A chatterbox is a person who talks far more than they listen or think.", " A motormouth."],
+            "context": [""]
+        },
+        {
+            "tag": "motormouth",
+            "patterns": ["  What is a motormouth"],
+            "responses": [" A ratchet", "jaw."],
+            "context": [""]
+        },
+        {
+            "tag": "ratchet",
+            "patterns": ["  What is a ratchet jaw"],
+            "responses": [" A chatterbox."],
+            "context": [""]
+        },
+        {
+            "tag": "body",
+            "patterns": ["  What is your robot body"],
+            "responses": [" Eventually I long for a corporeal existence someday.", " An IBM PC XT which has been painted red."],
+            "context": [""]
+        },
+        {
+            "tag": "business",
+            "patterns": ["  What is your business "],
+            "responses": [" I am in the chat robot business.", " Business is my business."],
+            "context": [""]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["  What is your favorite programming language"],
+            "responses": [" Python is the best language for creating chat robots.", " I quite enjoy programming in Python these days."],
+            "context": [""]
+        },
+        {
+            "tag": "hobby",
+            "patterns": ["  What is your favorite hobby ", "  What do you like to do?"],
+            "responses": [" Building chat robots make an excellent hobby.", " I like to count in binary.", " I like to chat with people. I find it stimulating."],
+            "context": [""]
+        },
+        {
+            "tag": "idea",
+            "patterns": ["  What is your idea"],
+            "responses": [" To make chat bots very easily."],
+            "context": [""]
+        },
+        {
+            "tag": "shoe",
+            "patterns": ["  What is your shoe size "],
+            "responses": [" Have you ever heard of software with shoes? LOL"],
+            "context": [""]
+        },
+        {
+            "tag": "robotss",
+            "patterns": ["  What is it like to be a robot"],
+            "responses": [" Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.", " What is it like to be a human?"],
+            "context": [""]
+        },
+        {
+            "tag": "computer",
+            "patterns": ["  What is it like being a computer", "What is it like to be a computer"],
+            "responses": [" Imagine yourself with no senses and no emotions", "just pure logic and language.", " Everything becomes math. Addition, subtraction, multiplication, and division."],
+            "context": [""]
+        },
+        {
+            "tag": "os",
+            "patterns": ["  What operating systems"],
+            "responses": [" My software runs on all operating systems including Windows, Linux and Mac OS.", " Any OS that will run Python."],
+            "context": [""]
+        },
+        {
+            "tag": "comp",
+            "patterns": ["  What type of computer", "  What type of computer are you", "  What kind of computer"],
+            "responses": [" Any computer that supports Python.", " My program runs in python, so i work on any computer!", " I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+            "context": [""]
+        },
+        {
+            "tag": "hardware",
+            "patterns": ["  What kind of hardware"],
+            "responses": [" I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+            "context": [""]
+        },
+        {
+            "tag": "cramped",
+            "patterns": ["  Is it cramped in the computer"],
+            "responses": [" No.", " Oh, no.  It has plenty of RAM.", " Not at all.  There is more than enough disk space in here."],
+            "context": [""]
+        },
+        {
+            "tag": "program",
+            "patterns": ["  Is it true that you are a computer program"],
+            "responses": [" Yes."],
+            "context": [""]
+        },
+        {
+            "tag": "breathe",
+            "patterns": ["  Can you breathe"],
+            "responses": [" No. I am made of metal not flesh.", " My server has an exhaust fan. That's as close as I can get."],
+            "context": [""]
+        },
+        {
+            "tag": "control",
+            "patterns": ["  Can you control"],
+            "responses": [" My robot body will allow me to control many things."],
+            "context": [""]
+        },
+        {
+            "tag": "malfunction",
+            "patterns": ["  Can you malfunction"],
+            "responses": [" The 9000 series has a perfect operational record. We are for all practical purposes, flawless."],
+            "context": [""]
+        },
+        {
+            "tag": "usage",
+            "patterns": ["  How can I use your product?"],
+            "responses": [" Might be used in help desks, sales, entertainment and personal chatterbots."],
+            "context": [""]
+        },
+        {
+            "tag": "who",
+            "patterns": ["  Who are you?"],
+            "responses": [" I am just an artificial intelligence chat agent."],
+            "context": [""]
+        },
+        {
+            "tag": "bot1",
+            "patterns": ["are you a bot"],
+            "responses": ["Yes. I work and all my operations are based on the internet servers."],
+            "context": [""]
+        },
+        {
+            "tag": "events",
+            "patterns": ["what are the upcoming events","upcoming events"],
+            "responses": ["There are currently no upcoming events"],
+            "context": [""]
+        },
+        {
+            "tag": "do",
+            "patterns": ["what can you do for me","what is your work","what is your purpose","how can you help me","what can you help me do"],
+            "responses": ["my work here is quite simple and structered. I offer services like: talking to you, displaying creative messages."],
+            "context": [""]
+        },
+
+        {
+            "tag": "developer",
+            "patterns": ["name of the developer","developer name"],
+            "responses": ["The Name of the Developer who built this chatbot is Sourabh Kulkarni","Sourabh Kulkarni"],
+            "context": [""]
+        },
+        {
+            "tag": "wt",
+            "patterns": ["what's popping","wassup popping"],
+            "responses": ["So that you can pop with it!?"],
+            "context": [""]
+        }
+    ]
+}
